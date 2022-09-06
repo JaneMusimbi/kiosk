@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+// import React,{useState,useEffect} from 'react';
 import './App.css';
-
+import LogIn from './LogIn';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+   
+    return(<div className='header'>
 
-export default App;
+    <LogIn/>
+
+   </div>);
+   }
+
+   export default App;
+//     const[count,setCount]= useState(0);
+//     const [name,setName] = useState("")
+//     useEffect(()=>{
+//         setName("jane")
+//     setCount(count +1)},
+//     [])
+
+//     return (
+//       <div>
+//           <h1>{name}</h1>
+//         <p>count</p>
+//         <button onClick={()=>(setCount(count+1))}Click Me></button>
+//       </div>
+//     )
+//   }
+//   export default App;
+
+    
+
